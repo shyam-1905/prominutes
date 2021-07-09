@@ -1,0 +1,85 @@
+#leftsearch{
+  outline: 0; 
+  border: 0;
+  width: 350px; 
+  box-shadow: 1px transparent ;
+  height: 5vh;
+  margin-top: 20px;
+  border-radius: 2px;
+}
+#addmemberinput{
+    font-family: inherit;
+    width: 165px;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0; 
+    color:black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    height: 8vh;
+    padding: 15px;
+    
+}
+#addmemberinputemail{
+    font-family: inherit;
+    width: 350px;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0; 
+    color:black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    height: 8vh;
+    margin-top: 10px;
+    padding: 15px;
+}
+.textfields{
+    display: flex;
+    column-gap: 20px;
+}
+.addmemberbox{
+    background: #ffffff;
+    margin-top: 20px;
+    height: 200px;
+}
+#addbutton{
+    outline: 0;
+    border:0;
+    color:blue;
+    background: transparent;
+    align-items: center;
+    margin-top: 20px;
+    float: right;
+    text-decoration: underline;
+}
+
+.participantstext{
+    color: #bcd3eb;
+    margin-top: 20px;
+}
+.participantsbox{
+    height: 200px;
+    background: #ffffff;
+}
+#participantsrow{
+    display:flex;
+    border-bottom: 2px solid #9b9b9b;
+   column-gap: 240px;
+   height: 4vh;
+   margin-top:8px;
+   padding: 5px;
+}
+#participantdata{
+    display: flex;
+    column-gap: 260px;
+    padding: 10px;
+    font-size: 15px;
+
+}
+#participantdata input {
+    width: 1.5em;
+  height: 1.5em;
+  border-radius: 2px;
+}

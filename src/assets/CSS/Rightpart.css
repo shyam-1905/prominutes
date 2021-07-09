@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#right-cont{
+    height: 83vh;border-bottom:1px solid #aaa ;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+#optionalobjective{
+    color: #bdd6f1;
+    font-size:20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+ 
+    height:6vh;
+    
+}
+.footer button{
+    outline: 0;
+    border:0;
+    color:blue;
+    background: transparent;
+    align-items: center;
+    margin-top: 10px;
+}
